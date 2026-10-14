@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel = "stylesheet" href="style.css">
+<script src = "script.js" defer></script>
+<body>
+   <h2>Write Your Message</h2>
+  <p>200 characters max</p>
+
+  <textarea
+    id="message"
+    maxlength="200"
+    placeholder="Type your message here..."
+  ></textarea>
+
+  <p class="counter" id="counter">
+    0/200 characters (200 remaining)
+  </p>
+
+  <p class="warning" id="warning" role="alert">
+    Warning: Character limit reached!
+  </p>
+
+</body>
+</html>
